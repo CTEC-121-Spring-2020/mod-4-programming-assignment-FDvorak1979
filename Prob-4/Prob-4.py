@@ -20,7 +20,7 @@ def main():
 
 # Draws the Door of the house
     p3 = win.getMouse()
-    widthOfhouse = p2.y - p1.y
+    widthOfhouse = p2.x - p1.x
     doorWidth = widthOfhouse / 5
     halfDoorwidth = doorWidth / 2
     door = Rectangle(Point(p3.x - halfDoorwidth, p1.y), Point(p3.x + halfDoorwidth, p3.y))
